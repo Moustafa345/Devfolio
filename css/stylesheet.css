@@ -1,0 +1,444 @@
+* {
+
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f5f5;
+    --white-color:#fff;
+    text-align: justify;
+}
+
+
+.global-line {
+    width: 40px;
+    height: 5px;
+    background-color: #0078ff;
+    margin: 0 auto;
+}
+
+/*******Home Section******/
+
+
+.navbar.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+  }
+
+.nav-link.scrolledbg {
+    color: #0078ff !important;
+    transition: background-color 200ms linear;
+  }
+
+.navbar-brand.scrolledbg {
+    color: #0078ff !important;
+    transition: background-color 200ms linear;
+  }
+
+.homesection {
+    background-image:url(../img/intro-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center ;
+    background-blend-mode: overlay;
+    background-color: #3b3a3a;
+}
+
+
+
+.navbar .navbar-brand {
+    color:#fff;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.navbar .nav-link {
+    color:#fff;
+    
+}
+
+.bg-dark  {
+    color:white !important;
+}
+/* Landing Start */
+.landing h1 {
+   font-size: 4.5rem;
+   margin-bottom: 1rem;
+   font-weight: 600;
+}
+
+
+.landing p {
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+
+
+    @media screen and 
+    (max-width: 768px) {
+        .landing p {
+            font-size: 1.5rem;
+            font-weight: 400;
+        }
+    }
+    
+    
+    @media screen and 
+    (max-width: 768px) {
+        .landing h1 {
+            font-size: 3.5rem;
+            font-weight: 600;
+        }
+    }
+    
+
+/*Home Section End*/
+
+/************* About ME Start *****************/
+
+/* About ME Right Side */
+
+.blueline {
+    width: 100px;
+    height: 3px;
+    background-color: #0078ff;  
+   margin-top: 8px;
+   margin-bottom: 25px;
+    
+}
+
+
+/************* About ME End *****************/
+
+
+
+
+/********* Services Section Start *********/
+
+
+/*Bottom Section Start*/
+
+.service-box {
+
+    background-color: #fff;
+    padding: 2.5rem 1.3rem;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+}
+
+.circle-icon {
+    height: 100px;
+    width: 100px;
+    font-size: 2rem;
+    box-shadow: 0 0 0 10px #0078ff;
+    border-radius: 80%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    line-height: 1.70;
+    transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+}
+
+.service-box .circle-icon:hover {
+    box-shadow: 0 0 0 10px #a8baf6;
+    color: #fff;
+    background-color: #0078ff;
+}
+
+.service-box .circle-icon {
+
+    font-size: 4rem;
+}
+
+.fa-paintbrush {
+    font-size: 3.5rem;
+}
+/*Bottom Section End*/
+
+/************** Background Section Start ********************/
+
+.bgsection {
+    background-image:url(../img/counters-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    padding: 8rem 0;
+    margin-bottom: 30px;
+   background-blend-mode: overlay;
+   background-color: #305f94;
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+
+.bgoverlay {
+    top:0;
+    left:0;
+    width: 100%;
+    height:100%;
+}
+
+.section-counter .counter-icon {
+    height: 60px;
+    width: 60px;
+    font-size: 1rem;
+    box-shadow: 0 0 0 10px #cde1f8;
+    border-radius: 80%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    line-height: 1.70;
+    transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    color: #fff;
+    margin-bottom: 30px;
+
+}
+
+.counter-number {
+    font-size: 32px;
+    font-weight: 400;
+    
+}
+
+.counter-text {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Background Section End */
+
+/************* Portfolio Section Start ****************/
+
+.port-container a {
+    transition: all 0.5s ease;
+    text-decoration: none;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+.port-container h4 {
+    color:#424242;
+}
+
+.work-section {
+    box-shadow: 0 13px 8px -10px rgb(0 0 0 / 10%);
+}
+
+.work-par {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.work-img img{
+    transition: all 1.5s;
+    -webkit-transition: all 1.5s;
+    -moz-transition: all 1.5s;
+    -ms-transition: all 1.5s;
+    -o-transition: all 1.5s;
+}
+
+.work-img:hover img{
+  
+    transform: scale(1.5);
+    transition: all 1.5s;
+    -webkit-transition: all 1.5s;
+    -moz-transition: all 1.5s;
+    -ms-transition: all 1.5s;
+    -o-transition: all 1.5s;
+}
+
+.work-text {
+    font-size:13px;
+    font-weight: 400;
+}
+
+/************* Portfolio Section End ****************/
+
+
+
+/************* Background-2 Section Start ****************/
+
+
+.bg2img {
+    background-image:url(../img/overlay-bg.jpg);
+    padding: 10rem 0;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: #0078ff;
+}
+
+.bg2circle {
+    background-color:#fff;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: block;
+    line-height: 1rem;
+}
+
+
+.bg2circle i {
+    color:#0078ff;
+}
+
+
+
+/************* Background-2 Section End ****************/
+
+
+
+
+/************* Blog Section Start ****************/
+
+.blog-img {
+    background-color: #f7f7f7;
+    box-shadow: 0px 5px 2px 0px rgb(231, 212, 212, 50%);
+}
+
+.blog-img img {
+    width:35px;
+}
+
+
+.blog-text {
+    color: #000;
+}
+
+.blog-text:hover {
+    color:#0078ff;
+    transition: all 0.7s;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -ms-transition: all 0.7s;
+    -o-transition: all 0.7s;
+}
+
+.travel {
+   position: absolute;
+   width:60px;
+   height:30px;
+   background-color: #0078ff;
+   border-radius: 0.2rem;
+   -webkit-border-radius: 0.2rem;
+   -moz-border-radius: 0.2rem;
+   -ms-border-radius: 0.2rem;
+   -o-border-radius: 0.2rem;
+   bottom: -16px;
+   left: 40%;
+   color: #fff;
+    padding: 10px;
+    line-height: 0.7rem;
+   font-size: 11px;
+   text-transform: uppercase ;
+}
+
+.webdesign-box {
+    position: absolute;
+    text-align: center;
+    top: -16px;
+    left: 15px;
+    right: 15px;
+    line-height: 25px;
+    overflow: hidden;
+    }
+
+
+.webdesign-card {
+    display: inline-block;
+    color: #fff;
+    padding: 3px 13px 3px 13px;
+    overflow: hidden;
+    background-color: #0078ff;
+    border-radius: 4px;
+    font-size: 0.7rem;
+    letter-spacing: 0.2px;
+}
+
+
+.webdesignbtn {
+    font-size: 0.8rem;
+
+}
+
+
+/* Blog Section End */
+
+/*************  Contact Section Start  ****************/
+
+.footerbg {
+  
+    padding: 4rem 0rem 2rem 0rem;
+    background-image:url(../img/overlay-bg.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: #1568d5;
+
+}
+
+.contact-box {
+    background-color: #fff;
+    position: relative;
+    margin-bottom: 4rem;
+    z-index: 2;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 6%), 0 2px 5px 0 rgb(0 0 0 / 20%);
+  
+
+}
+
+.form-btn {
+    font-size:19px;
+    border-radius: 5rem;
+    -webkit-border-radius: 5rem;
+    -moz-border-radius: 5rem;
+    -ms-border-radius: 5rem;
+    -o-border-radius: 5rem;
+    padding: 0.9rem 2.3rem;
+    font-size: 1.2rem;
+}
+
+.contact-par {
+    line-height: 30px;
+    color: #4e4e4e;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.social-circle {
+    height: 40px;
+    width: 40px;
+    font-size: 1.7rem;
+    border-radius: 50%;
+    line-height: 1.4;
+    margin: 0 15px 0 0;
+    box-shadow: 0 0 0 3px #0078ff;
+    transition: all 500ms ease;
+    display:block;
+    text-align: center;
+} 
+
+
+.social-circle:hover {
+    background-color: #0078ff;
+    color: #fff;
+    border: transparent;
+} 
+
+/* Contact Section End */
